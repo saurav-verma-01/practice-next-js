@@ -25,6 +25,11 @@ const Navbar = () => {
             SHOP 🛒
           </Link>
         </li>
+        <li>
+          <Link href="/sign-in" className={styles.links && "special"}>
+            Login / Register
+          </Link>
+        </li>
       </ul>
     </nav>
   );

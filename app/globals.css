@@ -59,3 +59,76 @@ main div h1 {
 main div p {
   font-size: 1.4rem;
 }
+
+.link {
+  padding: 1rem 2rem;
+  background-color: orange;
+  border-radius: 0.5rem;
+  color: rgb(1, 1, 53);
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  transition: all 0.4s ease;
+}
+.link:is(:hover, :active) {
+  background-color: orangered;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.project-list li {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid #1a263c;
+  text-align: center;
+  cursor: pointer;
+
+  background-color: blueviolet;
+  transition: all 0.4s ease;
+}
+
+.project-list li:is(:hover, :active) {
+  background-color: inherit;
+  border: 2px solid blueviolet;
+}
+
+.all-projects-link {
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border: 2px solid #1a263c;
+  background-color: orchid;
+  color: #1a263c;
+}
+.all-projects-link:is(:hover, :active) {
+  border: 2px solid orchid;
+  background-color: #1a263c;
+  color: orchid;
+}
+
+.special {
+  background: orange;
+  color: #1a263c;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border: 2px solid #1a263c;
+  font-weight: bold;
+  transition: all 0.4s ease;
+}
+.special:is(:hover, :active) {
+  background-color: transparent;
+  color: aliceblue;
+  border-color: orange;
+}

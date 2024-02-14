@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main>
@@ -15,6 +17,10 @@ export default function Home() {
           molestiae, corrupti, voluptatem commodi! Autem eos iusto nisi
           quibusdam maxime cupiditate.
         </p>
+        <h2>Want to checkout Projects</h2>
+        <Link href="/projects/list" className="link">
+          Project 🏢
+        </Link>
       </div>
     </main>
   );
