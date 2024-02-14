@@ -1,11 +1,61 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(36, 2, 46);
+
+  color: rgb(221, 202, 253);
+}
+
 main {
   padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: calc(100% - 6rem);
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-main h1 {
+.about-main {
+  background-color: rgb(4, 70, 63);
+}
+.contact-main {
+  background-color: rgb(5, 36, 5);
+}
+.shop-main {
+  background-color: rgb(65, 9, 20);
+}
+main div {
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main div h1 {
   font-size: 4rem;
+}
+main div p {
+  font-size: 1.4rem;
 }

@@ -1,0 +1,25 @@
+.nav {
+  width: 100%;
+  background-color: rgb(31, 35, 39);
+  padding: 2rem 3rem;
+  border-bottom: 2px solid #2c2c2c;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.links:is(:hover, :active) {
+  color: #8140e2;
+}
